@@ -72,6 +72,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** JANSI RANI A A and (212224040130) **Course:** Introduction to Cloud Computing
+**Name:** JANSI RANI A A and (212224040130) 
 **Course:** Introduction to Cloud Computing  
 
