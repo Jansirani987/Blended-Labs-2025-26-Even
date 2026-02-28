@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name** JANSI RANI A A
+* **Register Number**: 212224040130
+* **Date of Submission**: 28.02.2025
 
 ---
 
@@ -98,31 +98,34 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+**1.The EC2 Dashboard was accessed through the AWS Management Console to explore its various features.
+2.A new EC2 instance was launched using the Amazon Linux 2 AMI and the t2.micro instance type for free-tier eligibility.
+3.The security group was configured to allow SSH access from the specified IP address and HTTP access from all IPs.
+4.The instance was connected via SSH using the downloaded key pair, and basic operations such as stop, start, and reboot were performed. 
+5.Finally, the instance was monitored using the Monitoring tab before being terminated to avoid additional charges.
 
+**
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1366" height="622" alt="Screenshot (836)" src="https://github.com/user-attachments/assets/76c13512-6e2c-4d10-ac94-c7bbbb660b5c" />
+
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1366" height="613" alt="Screenshot (833)" src="https://github.com/user-attachments/assets/02bee677-8683-4dcb-8b7f-da2ca897509d" />
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1366" height="631" alt="Screenshot (837)" src="https://github.com/user-attachments/assets/52f2f35a-fac6-41aa-b9ba-b84e0c9e14c4" />
 
 ---
 
