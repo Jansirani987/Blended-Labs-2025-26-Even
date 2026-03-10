@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: JANSI RANI A A
+* **Register Number**: 212224040130
+* **Date of Submission**: 10.03.2026
 ---
 
 ## Objective
@@ -80,11 +79,15 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Create Volume: I created a new EBS Volume in the same Availability Zone (e.g., us-east-1a) as my EC2 instance.
+
+2.Attach Volume: I used the Actions menu in the EC2 console to Attach the volume to my running instance.
+
+3.Format and Mount: I logged into the instance and used the mkfs command to format the disk and the mount command to make it ready for use.
+
+4.Create Snapshot: I created a Snapshot of the volume, which acts as a point-in-time backup of my data in Amazon S3.
+
+5.Restore Data: Finally, I created a new volume from the snapshot to verify that my data could be successfully recovered.
 
 ---
 
@@ -92,21 +95,18 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1366" height="768" alt="Screenshot (850)" src="https://github.com/user-attachments/assets/a8bf5ded-c588-426d-a9d6-b916307bdf90" />
 
----
+
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1366" height="768" alt="Screenshot (856)" src="https://github.com/user-attachments/assets/c96d4053-a5bc-4cdd-8d68-78ad0ea056c0" />
 
----
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
-
----
+<img width="1366" height="768" alt="Screenshot (864)" src="https://github.com/user-attachments/assets/19aea6bf-8626-4092-8947-4fbc605e48ca" />
 
 ## Result / Conclusion
 
