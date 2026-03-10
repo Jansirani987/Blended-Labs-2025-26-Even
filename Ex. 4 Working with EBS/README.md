@@ -77,8 +77,6 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
 1.Create Volume: I created a new EBS Volume in the same Availability Zone (e.g., us-east-1a) as my EC2 instance.
 
 2.Attach Volume: I used the Actions menu in the EC2 console to Attach the volume to my running instance.
